@@ -1,1 +1,13 @@
-/* Add your own styles */
+body{
+    display: flex;
+    flex-direction: column;
+}
+header,#controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    display: flex;
+    justify-content: center;
+}
