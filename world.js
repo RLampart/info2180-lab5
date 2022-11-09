@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",function(){
     var list = "world.php?country=";
     button.onclick = function(event){
         event.preventDefault();
-        const httpRequest = new XMLHttpRequest();
+        var httpRequest = new XMLHttpRequest();
         httpRequest.onreadystatechange = function(){
             if (httpRequest.readyState == XMLHttpRequest.DONE){
                if (httpRequest.status == 200){
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded",function(){
         }
         httpRequest.open("GET",list);
         httpRequest.send();
-        list = "superheroes.php?name="
+        list = "world.php?country="
     }
 
 })
