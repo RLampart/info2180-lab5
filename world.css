@@ -1,13 +1,38 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: antiquewhite;
 }
 header,#controls{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input{
+    height: 30px;
+    width: 300px;
+}
+button{
+    margin: 5px;
+    width: 180px;
+}
+header{
+    background-color: rgb(127, 208, 255);
 }
 #result{
     display: flex;
     justify-content: center;
+}
+table,th,td{
+    border: 1px ridge blue;
+    padding: 10px;
+}
+table{
+    width: 80%;
+}
+th{
+    background-color: rgb(60, 160, 160);
 }
